@@ -21,4 +21,4 @@ function getNextSunday(){
     }
 }
 let mydate=new Date(getNextSunday());
-console.log(`${mydate.getFullYear()}/${mydate.getMonth()+1}/${mydate.getDate()}`);
+console.log(`Ngay chu nhat tiep theo la ${mydate.getFullYear()}/${mydate.getMonth()+1}/${mydate.getDate()}`);
